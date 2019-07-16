@@ -1,0 +1,47 @@
+body{
+    margin-top: -4px;
+    padding-top: 0px;
+}
+#images{
+}
+.images-table-tr{
+    height: 200px;
+    width: 100%;
+}
+.images-table-tr-td{
+    width: 20%;
+    height: 100%;
+}
+.images-table-tr-td-div{
+    position: relative;
+    width:  196px ;
+    height: 196px;
+    overflow: hidden;
+    background-color: gray;
+    margin: 2px;
+    box-shadow: white 0px 0px 2px 1px;
+}
+.images-table-tr-td-div-img{
+    width: 100%;
+}
+#images-div{
+
+}
+.images-table-tr-td-div-img-folder{
+   position: absolute;
+  right: 0px;
+    bottom: 0px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.images-table-tr-td-div-img-date{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: darkgrey;
+}
